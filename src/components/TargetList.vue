@@ -7,10 +7,10 @@
         button.target-list_button(@click="removeItem(item)")
           span.fas.fa-minus
     div.target-list_control-panel
-      button.target-list_control-button(@click="addItem")
-        span.fas.fa-plus
-      button.target-list_control-button(@click="refreshList")
+      button.target-list_control-button.target-list_control-button__refresh(@click="refreshList")
         span.fas.fa-redo
+      button.target-list_control-button.target-list_control-button__add(@click="addItem")
+        span.fas.fa-plus
 </template>
 
 <script>
@@ -227,4 +227,6 @@ export default {
     &:active
       outline: 1px solid #4cd946
       border: none
+    &__refresh
+      transform: rotateY(180deg)
 </style>
