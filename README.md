@@ -4,9 +4,11 @@
 
 1. Установить `npm i testquest`
 2. Импортировать стили `import testquest/dist/index.css`
-3. Установить шрифт Roboto Ligth, например `<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">`
-
+3. Установить шрифт Roboto Ligth, например
+```
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+```
 4. Установить font awesome free.
 5. Использовать компонент в нужном месте:
 ```
