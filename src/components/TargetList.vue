@@ -100,7 +100,7 @@ export default {
     display: flex
     align-items: center
     justify-content: space-between
-    padding: 8px 10px
+    padding: 7px 10px
     box-sizing: border-box
     border-radius: 4px
     margin: 0 0 6px 0
